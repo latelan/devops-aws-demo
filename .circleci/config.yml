@@ -40,7 +40,7 @@ jobs:
             . venv/bin/active
             make install
 
-      - lint:
+      - run:
           name: run lint
           command: |
             . venv/bin/active
